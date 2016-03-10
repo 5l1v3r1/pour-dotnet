@@ -56,3 +56,37 @@ logger.Warning("A warning message");
 logger.Info("An info message");
 logger.Verbose("A verbose message");
 ```
+
+### Contributions
+If you'd like to contribute, then pull the repository. `Pour.Client.Library` project should build without any further action. It does not depend on any external library. However, do the following to get the test projects building:
+
+1. Add `app.config` file `Pour.Client.Library.Test` folder
+```xml
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <appSettings>
+    <add key="EmulatorDirectory" value="C:\Program Files (x86)\Microsoft SDKs\Azure\Storage Emulator\" />
+    <add key="AzureStorage.Account" value="your-azure-storage-account-name" />
+    <add key="AzureStorage.Key" value="your-azure-storage-account-key" />
+  </appSettings>
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-7.0.0.0" newVersion="7.0.0.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+</configuration>
+```
+2. Add `app.config` file `Pour.Comparison` folder
+```xml
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <appSettings>
+    <add key="Azure.ConnectionString" value="your-azure-storage-connection-string" />
+    <add key="Pour.Token" value="your-pour-token" />
+  </appSettings>
+</configuration>
+```
+3. Update nuget package paths.
