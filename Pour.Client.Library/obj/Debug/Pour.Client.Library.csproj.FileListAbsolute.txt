@@ -1,0 +1,8 @@
+C:\Users\mert\Documents\Projects\Pour.DotNet\Pour.Client.Library\bin\Debug\README.txt
+C:\Users\mert\Documents\Projects\Pour.DotNet\Pour.Client.Library\bin\Debug\Pour.Client.Library.dll
+C:\Users\mert\Documents\Projects\Pour.DotNet\Pour.Client.Library\bin\Debug\Pour.Client.Library.pdb
+C:\Users\mert\Documents\Projects\Pour.DotNet\Pour.Client.Library\bin\Debug\Pour.Client.Library.dll.CodeAnalysisLog.xml
+C:\Users\mert\Documents\Projects\Pour.DotNet\Pour.Client.Library\bin\Debug\Pour.Client.Library.dll.lastcodeanalysissucceeded
+C:\Users\mert\Documents\Projects\Pour.DotNet\Pour.Client.Library\obj\Debug\Pour.Client.Library.dll
+C:\Users\mert\Documents\Projects\Pour.DotNet\Pour.Client.Library\obj\Debug\Pour.Client.Library.pdb
+C:\Users\mert\Documents\Projects\Pour.DotNet\Pour.Client.Library\obj\Debug\Pour.Client.Library.csprojResolveAssemblyReference.cache

@@ -1,0 +1,16 @@
+C:\Users\mert\Documents\Projects\Pour.DotNet\Pour.Client.Library.Test\obj\Debug\Pour.Client.Library.Test.csprojResolveAssemblyReference.cache
+C:\Users\mert\Documents\Projects\Pour.DotNet\Pour.Client.Library.Test\bin\Debug\README.txt
+C:\Users\mert\Documents\Projects\Pour.DotNet\Pour.Client.Library.Test\bin\Debug\Pour.Client.Library.Test.dll
+C:\Users\mert\Documents\Projects\Pour.DotNet\Pour.Client.Library.Test\bin\Debug\Pour.Client.Library.Test.pdb
+C:\Users\mert\Documents\Projects\Pour.DotNet\Pour.Client.Library.Test\bin\Debug\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Data.dll
+C:\Users\mert\Documents\Projects\Pour.DotNet\Pour.Client.Library.Test\bin\Debug\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.dll
+C:\Users\mert\Documents\Projects\Pour.DotNet\Pour.Client.Library.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\mert\Documents\Projects\Pour.DotNet\Pour.Client.Library.Test\bin\Debug\Newtonsoft.Json.dll
+C:\Users\mert\Documents\Projects\Pour.DotNet\Pour.Client.Library.Test\bin\Debug\Pour.Client.Library.dll
+C:\Users\mert\Documents\Projects\Pour.DotNet\Pour.Client.Library.Test\bin\Debug\Pour.Client.Library.pdb
+C:\Users\mert\Documents\Projects\Pour.DotNet\Pour.Client.Library.Test\bin\Debug\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.xml
+C:\Users\mert\Documents\Projects\Pour.DotNet\Pour.Client.Library.Test\bin\Debug\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Data.xml
+C:\Users\mert\Documents\Projects\Pour.DotNet\Pour.Client.Library.Test\bin\Debug\Newtonsoft.Json.xml
+C:\Users\mert\Documents\Projects\Pour.DotNet\Pour.Client.Library.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\mert\Documents\Projects\Pour.DotNet\Pour.Client.Library.Test\obj\Debug\Pour.Client.Library.Test.dll
+C:\Users\mert\Documents\Projects\Pour.DotNet\Pour.Client.Library.Test\obj\Debug\Pour.Client.Library.Test.pdb
