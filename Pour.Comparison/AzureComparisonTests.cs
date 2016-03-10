@@ -1,10 +1,11 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using System;
+using System.Configuration;
+using System.Diagnostics;
+using System.Threading;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.Table;
 using Pour.Client.Library;
-using System;
-using System.Diagnostics;
-using System.Threading;
 
 namespace Pour.Comparison
 {
@@ -13,7 +14,7 @@ namespace Pour.Comparison
     {
         private static int _id = 0;
 
-        private const int Count = 100;
+        private const int Count = 250;
 
         public class SampleEntity : TableEntity
         {
@@ -44,7 +45,7 @@ namespace Pour.Comparison
             Stopwatch sw = Stopwatch.StartNew();
 
             // Retrieve the storage account from the connection string.
-            CloudStorageAccount storageAccount = CloudStorageAccount.Parse("DefaultEndpointsProtocol=https;AccountName=pourtest;AccountKey=4iYhBQC8le0aXjUBDTXd61JaL+532uTwCGrrhXMtk4cr4+B0naa9B8VPSjQpvat9UQnaSlFILABuWtrdgAHvpw==");
+            CloudStorageAccount storageAccount = CloudStorageAccount.Parse(ConfigurationManager.AppSettings["Azure.ConnectionString"]);
             CloudTableClient tableClient = storageAccount.CreateCloudTableClient();
 
             // Create the table if it doesn't exist.
@@ -68,7 +69,7 @@ namespace Pour.Comparison
             sw.Restart();
 
             // Connect
-            LogManager.Connect("28a96c5f85ee2e2c912f9d5fc97818075loFm05qhhyDXj9OfzZBpBllEFzNU4Dx");
+            LogManager.Connect(ConfigurationManager.AppSettings["Pour.Token"]);
             LogManager.SetContext("SomeStringValue", "SomeStringValue");
             //string tableUri = ApiHelper.GetUri(LogManager.AccountUri, "comparisonpour");
 
