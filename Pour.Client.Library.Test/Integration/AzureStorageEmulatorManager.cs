@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Configuration;
 using System.Diagnostics;
 using System.IO;
 
@@ -9,7 +10,7 @@ namespace Pour.Client.Library.Test.Integration
     /// </summary>
     internal static class AzureStorageEmulatorManager
     {
-        private const string Folder = @"C:\Program Files (x86)\Microsoft SDKs\Azure\Storage Emulator\";
+        private static string Folder = ConfigurationManager.AppSettings["EmulatorDirectory"];
 
         /// <summary>
         /// Starts the emulator
